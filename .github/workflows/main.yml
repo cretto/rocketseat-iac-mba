@@ -45,4 +45,4 @@ jobs:
           command: up
           stack-name: cretto/stg
         env:
-          PULUMI_ACCESS_TOKEN: ${{ secret.PULUMI_ACCESS_TOKEN }}
+          PULUMI_ACCESS_TOKEN: ${{ secrets.PULUMI_ACCESS_TOKEN }}
