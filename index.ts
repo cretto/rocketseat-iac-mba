@@ -1,7 +1,7 @@
 import * as aws from "@pulumi/aws";
 
 const bucket = new aws.s3.BucketV2("primeiro-bucket", {
-  bucket: 'primeiro-bucket',
+  bucket: 'primeiro-bucket-mba-rocketseat',
   tags: {
     IAC: "true"
   }
